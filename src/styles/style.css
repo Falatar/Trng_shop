@@ -1,0 +1,89 @@
+div.app {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+	height: 96%;
+	width: 96%;
+    overflow-y: none;
+    margin: 2%;
+    background-color: aquamarine;
+}
+
+body, html {
+    background-color: aquamarine;
+    height: 96vh;
+    width: 96vw;
+    overflow-y: none;
+    margin: 2%;
+}
+
+div.Topper {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    border-color: chartreuse;
+    height: 10%;
+    width: 96%;
+    background-color: lightseagreen;
+    margin: 0;
+    padding: 2%;
+}
+
+div.SortMenu {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    height: 100%;
+    width: 20%;
+    background-color: lightseagreen;
+    border-color: chartreuse;
+    margin: 0;
+    padding: 2%;
+}
+
+div.menuChoise {
+    display: flex;
+    flex-direction: row;
+    border: 0;
+    height: 5%;
+    width: 80%;
+    margin: 0 2%;
+    padding: 0;
+}
+
+div.productBlock {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    height: 80%;
+    width: 20%;
+    background-color: lightseagreen;
+    border-color: rgb(10, 44, 134);
+    margin: 1% 5%;
+    padding: 2%;
+}
+
+div.workSpace {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+
+div#content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content button {
+    height: 10%;
+    margin: 45% 1%;
+    border-color: rgb(10, 44, 134);
+    background-color: cornflowerblue;
+}
+
+.Topper button {
+    border-color: rgb(10, 44, 134);
+    background-color: cornflowerblue;
+    margin: 0 5%;
+}
